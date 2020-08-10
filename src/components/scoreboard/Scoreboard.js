@@ -1,5 +1,5 @@
 import React from 'react';
-import './components/game/Game';
+
 
 function ScoreBoard(props) {
     return (

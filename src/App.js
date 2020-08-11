@@ -7,19 +7,19 @@ import Game from './components/game/Game';
 function App(props) {
   const knights = {
       name: "Columbus Knights",
-      logoSrc: "./images/Knights.png"
+      logoSrc: "./components/images/Knights.png"
   }
   const warriors = {
       name: "West Warriors",
-      logoSrc: "./images/Warriors.jpg"
+      logoSrc: "./components/images/Warriors.jpg"
   }
   const golden = {
       name: "Golden Knihgts",
-      logoSrc: "./images/Knights.png"
+      logoSrc: "./components/images/Knights.png"
   }
   const silver = {
       name: "Silver Warriors",
-      logoSrc: "./images/Warriors.jpg"
+      logoSrc: "./components/images/Warriors.jpg"
   }
   return (
       <div className="App">

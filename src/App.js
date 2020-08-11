@@ -1,25 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-
 import Game from './components/game/Game';
-
+import knights1 from './components/images/Knights.png'
+import warriors1 from './components/images/warriors.jpg'
 
 function App(props) {
   const knights = {
       name: "Columbus Knights",
-      logoSrc: "./components/images/Knights.png"
+      logoSrc: knights1
   }
   const warriors = {
       name: "West Warriors",
-      logoSrc: "./components/images/Warriors.jpg"
+      logoSrc: warriors1
   }
   const golden = {
       name: "Golden Knihgts",
-      logoSrc: "./components/images/Knights.png"
+      logoSrc: knights1
   }
   const silver = {
       name: "Silver Warriors",
-      logoSrc: "./components/images/Warriors.jpg"
+      logoSrc: warriors1
   }
   return (
       <div className="App">
